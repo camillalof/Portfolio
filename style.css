@@ -26,7 +26,7 @@ header {
   border-radius: 50%;
   display: flex;
   position: relative;
-  border: 2px, white;
+  border: 2px white;
   align-self: flex-end;
   margin-right: 20px;
   border: 3px solid #FFFFFF;
@@ -83,7 +83,7 @@ p {
 }
 
 p.bold {
-  -webkit-text-stroke-width: medium;
+  font-weight: bold;
   padding: unset;
 }
 
