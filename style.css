@@ -1,0 +1,219 @@
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  margin: 0px;
+  font-weight: bolder;
+  color: white;
+}
+
+header {
+  background-image: url(./Bilder/plush-design-studio-l3N9Q27zULw-unsplash.jpg);
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  color: white;
+}
+
+#pictureOfMe {
+  width: 40%;
+  height: auto;
+  border-radius: 50%;
+  display: flex;
+  position: relative;
+  border: 2px, white;
+  align-self: flex-end;
+  margin-right: 20px;
+  border: 3px solid #FFFFFF;
+  }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/** LINKS **/
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa {
+  /*padding: 20px;
+  font-size: 30px;
+  width: 5%;
+  text-align: center;
+  border-radius: 50%;
+  border: solid 5px white;
+  margin-bottom: 10px;*/
+  color: white;
+  text-decoration: none;
+}
+
+.circle{
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  margin-left: 20px;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+p {
+  padding: 0px 16px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+
+p.bold {
+  -webkit-text-stroke-width: medium;
+  padding: unset;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+/** SECTIONS **/
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-variant: all-small-caps;
+  text-align: center;
+  box-sizing: content-box;
+  background-color: red;
+  color: white;
+}
+
+.grey {
+  background-color: lavender;
+}
+
+.blue {
+  background-color: blue;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-variant: all-small-caps;
+  text-align: center;
+  color: white;
+}
+
+.fore-more-links {
+  color: red;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#thoughts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#duckImage {
+  border-radius: unset;
+  width: 80%;
+  height: auto;
+  max-width: 300px;
+}
+
+.duckImage {
+  display: flex;
+  justify-content: center;
+}
+
+/** MEDIA-QUERIES **/
+
+@media (min-width: 668px) {
+
+#projects-section {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+#other-projects-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#thoughts-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 24px;
+}
+
+#pictureOfMe {
+  /**width: 40%;
+  height: auto;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  align-self: flex-end;**/
+    width: 162px;
+    height: 162px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    opacity: 1;
+    margin-right: 20%;
+}
+
+.name {
+  display: flex;
+  margin-left: 20%;
+}
+
+.title {
+  margin-left: 20%;
+}
+
+.links {
+  margin-left: 20%;
+}
+header {
+  height: 335px;
+}
+}
+
+@media (min-width: 900px) {
+header {
+  background-position: bottom center;
+}
+}
