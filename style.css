@@ -4,20 +4,36 @@ font-family: 'Roboto', sans-serif;
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
   flex-direction: column;
   margin: 0px;
-  font-weight: bolder;
+  font-weight: bold;
   color: white;
+  position: absolute;
+  left: 30px;
+  top: 150px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 30px;
+  top: 200px;
 }
 
 header {
-  background-image: url(./Bilder/plush-design-studio-l3N9Q27zULw-unsplash.jpg);
+  background-image: url(./Bilder/portf2.jpeg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: 400px;
   color: white;
+  padding: 30px 20px 0px 20px;
+  position: relative;
 }
 
 #pictureOfMe {
@@ -25,11 +41,10 @@ header {
   height: auto;
   border-radius: 50%;
   display: flex;
-  position: relative;
-  border: 2px white;
-  align-self: flex-end;
-  margin-right: 20px;
+  position: absolute;
   border: 3px solid #FFFFFF;
+  right: 20px;
+  bottom: -10px;
   }
 
 .container {
@@ -37,7 +52,7 @@ header {
   flex-direction: column;
 }
 
-/** LINKS **/
+/** HEADER-LINKS **/
 
 .links {
   display: flex;
@@ -45,31 +60,62 @@ header {
 }
 
 .fa {
-  /*padding: 20px;
-  font-size: 30px;
-  width: 5%;
-  text-align: center;
-  border-radius: 50%;
-  border: solid 5px white;
-  margin-bottom: 10px;*/
+  padding: 20px;
   color: white;
   text-decoration: none;
 }
 
 .circle{
-  border: 3px solid white;
+  border: 2px solid white;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   margin: 3px;
   display:flex;
   justify-content: center;
   align-items: center;
 }
 
+/** FOR-MORE-LINKS **/
+
+#for-more-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.red-circle .fa {
+  padding: 20px;
+  color: red;
+  text-decoration: none;
+}
+
+.red-circle{
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
 .name {
   display: flex;
-  margin-left: 20px;
+}
+
+.name {
+  position: absolute;
+  left: 30px;
+  top: 120px;
+}
+
+.name p {
+  margin: 0px;
+  padding: 0px;
 }
 
 .title {
@@ -77,9 +123,50 @@ header {
 }
 
 p {
-  padding: 0px 16px 0px 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: small;
+  padding: 0px 20px 0px 20px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 12px;
+  text-align: center;
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 12px;
+  min-width: 40%;
+  max-width: 40%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.list {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding: 10px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 35%;
+  max-width: 35%;
+  font-variant: all-small-caps;
+  font-size: 16px;;
+  color: red;
+}
+
+#top-section p {
+text-indent: 50px;
 }
 
 p.bold {
@@ -98,9 +185,15 @@ h2 {
   font-family: 'Roboto', sans-serif;
   font-variant: all-small-caps;
   text-align: center;
-  box-sizing: content-box;
-  background-color: red;
+  font-size: 26px;
   color: white;
+}
+
+.red-box {
+  background-color: red;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .grey {
@@ -158,19 +251,8 @@ h3 {
 
 @media (min-width: 668px) {
 
-#projects-section {
- display: flex;
- flex-wrap: wrap;
-}
-
-#other-projects-section {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#thoughts-section {
-  display: flex;
-  flex-wrap: wrap;
+p {
+  padding: 0px 200px 0px 200px;
 }
 
 img {
