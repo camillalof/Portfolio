@@ -25,9 +25,9 @@ h6 {
 }
 
 header {
-  background-image: url(./Bilder/portf2.jpeg);
+  background-image: url(./Bilder/designecologist-Pmh0UoG1vlE-unsplash.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom left;
   display: flex;
   flex-direction: column;
   height: 400px;
@@ -45,6 +45,7 @@ header {
   border: 3px solid #FFFFFF;
   right: 20px;
   bottom: -10px;
+  max-width: 150px;
   }
 
 .container {
@@ -87,12 +88,12 @@ header {
 
 .red-circle .fa {
   padding: 20px;
-  color: red;
+  color: #131212;
   text-decoration: none;
 }
 
 .red-circle{
-  border: 2px solid red;
+  border: 2px solid #131212;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -139,6 +140,11 @@ ul li{
   margin: 0px;
 }
 
+ul img {
+  min-width: 80%;
+  max-width: 80%;
+}
+
 .list {
 display: flex;
 flex-direction: row;
@@ -162,7 +168,7 @@ h5 {
   max-width: 35%;
   font-variant: all-small-caps;
   font-size: 16px;;
-  color: red;
+  color: #c53d5c;
 }
 
 #top-section p {
@@ -190,7 +196,7 @@ h2 {
 }
 
 .red-box {
-  background-color: red;
+  background-color: #69214c;
   padding-bottom: 3px;
   padding-left: 5px;
   padding-right: 5px;
@@ -201,7 +207,7 @@ h2 {
 }
 
 .blue {
-  background-color: blue;
+  background-color:#2e2c2f;
 }
 
 h3 {
@@ -212,7 +218,7 @@ h3 {
 }
 
 .fore-more-links {
-  color: red;
+  color: #131212;
   border-radius: 50%;
   width: 35px;
   height: 35px;
@@ -242,9 +248,17 @@ h3 {
   max-width: 300px;
 }
 
-.duckImage {
+.projects {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectslist img {
+  max-width: 30%;
+}
+
+.projectslist h5 {
+  max-width: unset;
 }
 
 /** MEDIA-QUERIES **/
@@ -263,23 +277,21 @@ img {
 }
 
 #pictureOfMe {
-  /**width: 40%;
-  height: auto;
-  border-radius: 50%;
-  display: flex;
-  position: absolute;
-  align-self: flex-end;**/
-    width: 162px;
-    height: 162px;
-    border: 3px solid #FFFFFF;
-    border-radius: 50%;
-    opacity: 1;
-    margin-right: 20%;
+
+  right: 80px;
+}
+
+h1 {
+  left: 80px;
+}
+
+h6 {
+  left: 80px;
 }
 
 .name {
-  display: flex;
-  margin-left: 20%;
+  position: absolute;
+  left: 80px;
 }
 
 .title {
@@ -287,15 +299,65 @@ img {
 }
 
 .links {
-  margin-left: 20%;
+  position: absolute;
+  right: 100px;
+  top: 50px;
 }
+
 header {
   height: 335px;
+}
+
+.list-container {
+  padding-left: 80px;
+  padding-right: 80px;
 }
 }
 
 @media (min-width: 900px) {
+
+  header {
+    background-size: cover;
+    background-position: top;
+  }
+
+p {
+    padding: 0px 300px 0px 3 00px;
+}
+
 header {
   background-position: bottom center;
+}
+
+
+#pictureOfMe {
+  right: 200px;
+}
+
+h1 {
+  left: 200px;
+}
+
+h6 {
+  left: 200px;
+}
+
+.name {
+  position: absolute;
+  left: 200px;
+}
+
+.title {
+  margin-left: 20%;
+}
+
+.links {
+  position: absolute;
+  right: 220px;
+  top: 60px;
+}
+.list-container {
+  padding-left: 250px;
+  padding-right: 250px;
 }
 }
