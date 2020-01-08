@@ -27,7 +27,7 @@ h6 {
 header {
   background-image: url(./Bilder/designecologist-Pmh0UoG1vlE-unsplash\ kopia.jpg);
   background-size: cover;
-  background-position: bottom left;
+  background-position: center center;
   display: flex;
   flex-direction: column;
   height: 400px;
@@ -145,6 +145,14 @@ ul img {
   max-width: 80%;
 }
 
+ul.other-projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .list {
 display: flex;
 flex-direction: row;
@@ -155,6 +163,7 @@ padding: 10px;
 .list-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   text-align: center;
   flex-wrap: wrap;
   font-family: 'Open Sans', sans-serif;
@@ -186,6 +195,12 @@ a {
 }
 
 /** SECTIONS **/
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 h2 {
   font-family: 'Roboto', sans-serif;
