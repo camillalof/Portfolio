@@ -131,7 +131,12 @@ p {
   text-align: center;
 }
 
-ul li{
+ul {
+  list-style-type: none;
+
+}
+
+.list-skillz li {
   list-style-type: none;
   font-size: 12px;
   min-width: 40%;
@@ -140,9 +145,33 @@ ul li{
   margin: 0px;
 }
 
-ul img {
+/*ul img {
   min-width: 80%;
   max-width: 80%;
+}*/
+
+/*ARROWS AND LINKS*/
+
+span.project-info {
+  color: #69214c;
+}
+
+span.arrow {
+  color: #69214c;
+}
+
+span.date {
+  color: #69214c;
+}
+
+.projects a p {
+  color: black;
+  text-decoration: underline;
+}
+
+#more-thoughts-section p {
+  color: black;
+  text-decoration: underline;
 }
 
 ul.other-projects {
@@ -265,6 +294,7 @@ h3 {
 
 .projects {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -272,8 +302,27 @@ h3 {
   max-width: 30%;
 }
 
+.projectslist li {
+  max-width: 30%;
+}
+
 .projectslist h5 {
   max-width: unset;
+}
+
+#thoughts-section img{
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#thoughts-section a {
+flex-direction: column;
+align-items: center;
+text-decoration: none;
 }
 
 /** MEDIA-QUERIES **/
