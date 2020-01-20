@@ -17,6 +17,10 @@ p {
   text-align: center;
 }
 
+a {
+  color: black;
+}
+
 ul {
   list-style-type: none;
 
@@ -269,7 +273,7 @@ ul.projects {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -287,7 +291,7 @@ li.projectslist {
 .projects img {
   filter: brightness(0.5);
   position: relative;
-  width: 90%;
+  width: 100%;
 }
 
 .projects h4 {
@@ -312,6 +316,7 @@ li.projectslist {
 
 a.no-photo-link p {
   display: block;
+  padding: 0px;
 }
 
 .boxes  { 
@@ -344,14 +349,18 @@ ul.other-projects {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   padding: 0px;
 }
 
 .other-projects a p{
   font-family: 'Roboto', sans-serif;
+  color: black;
   font-size: 17px;
+  display: block;
+  text-align: start;
+  padding: 5px;
 }
 
 /*didnt find .list */
@@ -420,8 +429,8 @@ h5 {
   min-width: 35%;
   max-width: 35%;
   font-variant: all-small-caps;
-  font-size: 16px;;
-  color: #c53d5c;
+  font-size: 17px;
+  color: #FA382F;
 }
 
 .skillz-list-container {
@@ -551,12 +560,16 @@ span.transparent-box h2 {
 .thoughts-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 span.thoughts {
 width: 40%;
+}
+
+a {
+  color: black;
 }
 
 .list-container {
