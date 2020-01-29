@@ -525,6 +525,10 @@ img {
   justify-content: flex-end;
 }
 
+.projects img {
+  height: 150px;
+}
+
 #pictureOfMe {
 
   right: 75px;
@@ -729,6 +733,10 @@ h6 {
 .list-container {
   padding-left: 250px;
   padding-right: 250px;
+}
+
+.projects img {
+  height: 200px;
 }
 
 
