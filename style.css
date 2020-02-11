@@ -664,6 +664,11 @@ h6 {
   padding-right: 200px;
 }
 
+ul.other-projects {
+  padding: unset;
+  padding-bottom: 20px;
+}
+
 /*PADDING-SECTIONS */
 
 .white {
@@ -704,6 +709,10 @@ h6 {
   padding-right: 250px;;
 }
 
+ul.other-projects {
+  padding-left: 80px;
+}
+
 /*HEADER*/
 
 #pictureOfMe {
@@ -739,5 +748,23 @@ h6 {
   height: 200px;
 }
 
+
+}
+
+@media (min-width: 1450px) {
+
+  ul.other-projects {
+    padding-left: 150px;
+  }
+
+@media (min-width: 1750px) {
+
+  ul.other-projects {
+    padding-left: 300px;
+  }
+
+  .projects img {
+    height: 250px;
+  }
 
 }
