@@ -200,7 +200,7 @@ p.bold {
 .list-skillz li {
   display: flex;
   list-style-type: none;
-  font-size: 17px;
+  font-size: 12px;
   padding: 5px;
   margin: 0px;
   padding: 0px;
@@ -212,7 +212,7 @@ p.bold {
   align-items: center;
   flex-direction: column;
   list-style-type: none;
-  font-size: 17px;
+  font-size: 12px;
   padding: 20px;
   margin: 0px;
 }
@@ -440,7 +440,7 @@ text-decoration: none;
 /*Skills section*/
 
 #skillz-section {
-  padding: 0px;
+  padding: 10px;
 }
 
 .skills-list-container {
@@ -456,6 +456,7 @@ h5 {
   font-variant: all-small-caps;
   font-size: 17px;
   color: #FA382F;
+  margin: 10px 0px 10px 0px;
 }
 
 .skillz-list-container {
@@ -651,6 +652,10 @@ h6 {
 
 .title {
   margin-left: 20%;
+}
+
+#skillz-section {
+  padding: 20px;
 }
 
 .social-media-links {
